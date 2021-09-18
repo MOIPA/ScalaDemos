@@ -101,22 +101,8 @@ object Chapter9 extends App {
     val writer = new PrintWriter(file)
     try {
       op(writer)
-    } finally //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//{
+    } finally
+{
       writer.close()
     }
   }
